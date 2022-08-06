@@ -1,0 +1,282 @@
+/*body{
+  background-color: yellow;  class: it is not unique n can be reused unlike id
+  color:red;
+}
+
+
+h1{
+  color:chartreuse;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 300 ;
+}
+
+p{
+
+  color:fuchsia;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 0.75cm;
+}
+
+*{
+  margin:0;
+  padding:0;
+  border:0;  /*to zero out everything : padding and margin...
+}
+
+*/
+.box-1 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  border: 7px red solid;
+  border-style: groove;
+  padding: 5px;
+  margin: 10px;
+  /*margin adds space outside the border while padding provides space inside the border... */
+  
+
+  
+  
+
+}
+
+.container{
+  
+  /*margin auto provides an equal margin on all sides*/
+  margin: auto;}
+
+.box-1 h1{/*when you want to alter only heading h1 of the div box-1*/
+  font: 200;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  text-align: center;
+  text-decoration: wavy;
+  letter-spacing: normal;
+  word-spacing: normal;
+
+}
+
+.box-2 h1{
+  font: 200;
+  font-family: 'Times New Roman', Times, serif;
+  color:darkred;
+  font-style: normal;
+  text-align: center;
+  text-decoration: wavy;
+  letter-spacing: normal;
+  word-spacing: normal;}
+
+
+  .box-2{
+    border: 5px red solid;
+    background-color: yellow;
+    color:blue;
+    font-size: 150;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    word-spacing: 0.25em;
+    margin:10px;
+    padding:5px;
+
+
+
+  }
+
+ .box-3{
+
+       border: 5px red solid;
+       margin:10px;
+       padding:5px;
+       background-color:turquoise;
+       color:darkred;
+
+
+
+ }
+
+ .box-3 h2{
+   color:black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+ }
+
+ .box-3 ul{
+     
+     list-style:square;  /*list -style defines the type of bullet..*/
+     padding-left:20px;
+
+ }
+
+ a:hover{
+  color:red;   /*the list item will turn red when cursor hovers on it*/
+ }
+ 
+ a:active{
+  color:green; /*the list item will turn green when it is clicked */
+
+ }
+
+ a:visited{
+  color:black; /*the list item will turn black when it is visited */
+ }
+
+ .box-3 li{
+  border-bottom: 1px black;
+  
+
+ }
+
+ .form{
+  
+  margin:10px;
+  
+  
+ }
+
+ .form .form-group{
+  padding-bottom: 1px;
+  margin:10px;
+  
+
+ }
+
+ .form label{
+  display:block;  
+ }
+
+ .form input[type="text"], .form textarea{
+  width:80%;
+ }
+
+ /*as block level elements begin on a new line...*/ 
+
+ .form input[type="submit"]{
+  color:white;
+  background-color: black;
+
+ }
+ .block{
+  float:left;
+  width:28%;
+  border:1px red solid;
+  padding:5px;
+  margin:10px;
+  
+ 
+  
+  box-sizing:border-box;
+  /*box sizing takes in the padding and margin to make all blocks fit in same line*/
+ 
+
+
+ }
+
+ .sidebar{
+  float:right;
+  width:30%;
+  color:black;
+  border:1px blue solid;
+  padding:1.5px;
+  margin:1px;
+  background-color: aquamarine;
+
+/*link rel="stylesheet" type="text/css" href="path of the file"*/
+
+
+
+  
+ }
+ .sidebar h3{
+   color:blueviolet;
+ }
+
+
+
+ .positioning{
+  width:400px;
+  height:400px;
+  color:black;
+  margin:10px;
+  border:1px black solid;
+  
+  position:relative;
+  background-image: url('../html/background.jpg');
+  background-repeat: repeat;
+  
+ }
+ .positioning h1{
+  color:black;
+  position:absolute;
+  right:50px;
+
+  
+ }
+
+ .positioning h2{
+  position:absolute;
+  bottom:100px;
+  right:100px;
+ }
+  .button{
+    margin:20px;
+   
+    color:white;
+    position:fixed;
+    top:400px; /* the position of the button remains fixed at 400 px from the top*/
+    
+  }
+
+ /* postioning in css: static, relative , absolute, fixed ,initial , inherit*/
+
+   .list-1 li:first-child{
+    background-color: blue;  /*targets the first list item*/
+   }
+   .list-1 li:last-child{
+    background-color: brown;  /*targets the last list item*/
+   }
+
+   .list-1 li:nth-child(2){
+    background-color: chartreuse;
+   }
+
+   .list-1 li:nth-child(3){
+    background-color:darkgoldenrod ;
+   }
+
+
+   .list-1 li:nth-child(3){
+    background-color:darkmagenta;
+   }
+
+   .list-1 li:nth-child(4){
+    background-color:crimson;
+   }
+
+   .list-1 li:nth-child(5){
+    background-color:aqua ;
+   }
+
+   /*.list-1 li:nth-child(even){
+    background-color:grey;
+   }
+   one can also use the even and odd concept*/
+
+  
+
+
+
+
+
+
+
+  /* padding--> border---> margin*/
+
+  /* margin: top right bottom left (in pixels)*/
+
+
